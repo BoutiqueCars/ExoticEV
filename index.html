@@ -7,34 +7,6 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-black text-white font-sans">
-
-  <section style="padding: 50px; text-align: center;">
-    <h1 style="font-size: 3rem; margin-bottom: 30px;">Electric Exotic Fleet</h1>
-
-    <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-      <div class="vehicle">
-        <img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/2f67e94e-3ba9-49d2-9612-15cd8f2ec4b0/bvlatuR/std/2880x1800/Desktop-ModelS"
-             alt="Tesla Model S"
-             style="max-width: 400px; border-radius: 12px;" />
-        <p style="margin-top: 10px;">Tesla Model S</p>
-      </div>
-
-      <div class="vehicle">
-        <img src="https://i.imgur.com/FNDvu6f.jpeg"
-             alt="Tesla Cybertruck"
-             style="max-width: 400px; border-radius: 12px;" />
-        <p style="margin-top: 10px;">Tesla Cybertruck</p>
-      </div>
-
-      <div class="vehicle">
-        <img src="https://i.imgur.com/hE7cFbU.jpeg"
-             alt="Porsche Taycan"
-             style="max-width: 400px; border-radius: 12px;" />
-        <p style="margin-top: 10px;">Porsche Taycan</p>
-      </div>
-    </div>
-  </section>
-
   <header class="flex justify-between items-center px-6 py-4 bg-black bg-opacity-80 sticky top-0 z-50">
     <h1 class="text-3xl font-bold text-cyan-400">Electric Exotic</h1>
     <nav class="space-x-6 text-lg">
@@ -43,6 +15,24 @@
       <a href="#contact" class="hover:text-cyan-300">Contact</a>
     </nav>
   </header>
+
+  <section class="text-center py-16">
+    <h1 class="text-4xl font-bold mb-10">Electric Exotic Fleet</h1>
+    <div class="flex justify-center gap-10 flex-wrap">
+      <div>
+        <img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/2f67e94e-3ba9-49d2-9612-15cd8f2ec4b0/bvlatuR/std/2880x1800/Desktop-ModelS" alt="Tesla Model S" class="rounded-xl w-80">
+        <p class="mt-2">Tesla Model S</p>
+      </div>
+      <div>
+        <img src="https://www.tesla.com/sites/default/files/images/cybertruck/cybertruck-social.jpg" alt="Tesla Cybertruck" class="rounded-xl w-80">
+        <p class="mt-2">Tesla Cybertruck</p>
+      </div>
+      <div>
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/modelseries-taycan-cross-turismo-intro/normal/ee32f5ad-63f3-11eb-80d8-005056bbdc38;sK/porsche-normal.jpg" alt="Porsche Taycan" class="rounded-xl w-80">
+        <p class="mt-2">Porsche Taycan</p>
+      </div>
+    </div>
+  </section>
 
   <section class="relative h-[85vh] w-full flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1606925797303-8f55d37d7f88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');">
     <div class="text-center bg-black bg-opacity-60 p-8 rounded-xl">
@@ -54,10 +44,18 @@
 
   <section id="fleet" class="px-6 py-12 bg-gray-900">
     <h3 class="text-3xl font-bold mb-8 text-center">Our Fleet</h3>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div class="bg-white text-black p-4 rounded-xl">
         <img src="https://www.tesla.com/sites/default/files/modelsx-new/social/model-s-hero-social.jpg" alt="Tesla Model S" class="rounded" />
         <h4 class="mt-4 font-semibold">Tesla Model S</h4>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl">
+        <img src="https://www.tesla.com/sites/default/files/images/cybertruck/cybertruck-social.jpg" alt="Tesla Cybertruck" class="rounded" />
+        <h4 class="mt-4 font-semibold">Tesla Cybertruck</h4>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/modelseries-taycan-cross-turismo-intro/normal/ee32f5ad-63f3-11eb-80d8-005056bbdc38;sK/porsche-normal.jpg" alt="Porsche Taycan" class="rounded" />
+        <h4 class="mt-4 font-semibold">Porsche Taycan</h4>
       </div>
     </div>
   </section>
@@ -87,6 +85,5 @@
     <p>© 2025 Electric Exotic | Miami, FL</p>
     <p>Email: info@electricexotic.com | Instagram: @ElectricExotic</p>
   </footer>
-
 </body>
 </html>
